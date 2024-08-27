@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #F5F5F5;
     color: #333;
+    margin-bottom: 114px;
 }
 header {
     background-color: #0A3161; /* West Virginia Blue */
@@ -24,10 +25,6 @@ h1 {
     border: 1px solid #DDD;
     border-radius: 8px;
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -60%);
 }
 footer {
     text-align: center;
@@ -43,4 +40,13 @@ a {
 }
 a:hover {
     font-style: italic;
+}
+
+@media screen and (min-width: 39.688rem) {
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+    }
 }
